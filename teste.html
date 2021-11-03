@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Owl-carousel Card2s Slide2 | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html, body{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+  background: #f2f2f2;
+}
+.slide2{
+  max-width: 1100px;
+  display: flex;
+}
+.slide2 .card2{
+  flex: 1;
+  margin: 0 10px;
+  background: #fff;
+}
+.slide2 .card2 .img{
+  height: 200px;
+  width: 100%;
+}
+.slide2 .card2 .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slide2 .card2 .content2{
+  padding: 10px 20px;
+}
+.card2 .content2 .title{
+  font-size: 25px;
+  font-weight: 600;
+}
+.card2 .content2 .sub-title{
+  font-size: 20px;
+  font-weight: 600;
+  color: #e74c3c;
+  line-height: 20px;
+}
+.card2 .content2 p{
+  text-align: justify;
+  margin: 10px 0;
+}
+.card2 .content2 .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+.card2 .content2 .btn button{
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card2 .content2 .btn button:hover{
+  transform: scale(0.9);
+}
+
+    </style>
+  </head>
+  <body>
+    <section id="carrossel">
+    <div class="slide2 owl-carousel">
+      <div class="card2">
+        <div class="img">
+<img src="profile-1.jpeg" alt=""></div>
+<div class="content2">
+          <div class="title">
+Briana Tozour</div>
+<div class="sub-title">
+Graphic Designer</div>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+<div class="btn">
+            <button>Read more</button>
+          </div>
+</div>
+</div>
+<div class="card2">
+        <div class="img">
+<img src="profile-2.jpeg" alt=""></div>
+<div class="content2">
+          <div class="title">
+Pricilla Preez</div>
+<div class="sub-title">
+Web Developer</div>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+<div class="btn">
+            <button>Read more</button>
+          </div>
+</div>
+</div>
+<div class="card2">
+        <div class="img">
+<img src="profile-3.jpeg" alt=""></div>
+<div class="content2">
+          <div class="title">
+Eliana Maia</div>
+<div class="sub-title">
+App Developer</div>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+<div class="btn">
+            <button>Read more</button>
+          </div>
+</div>
+</div>
+<div class="card2">
+        <div class="img">
+<img src="profile-3.jpeg" alt=""></div>
+<div class="content2">
+          <div class="title">
+DEIVID Maia</div>
+<div class="sub-title">
+App Developer</div>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque.</p>
+<div class="btn">
+            <button>Read more</button>
+          </div>
+</div>
+</div>
+</div>
+</section>
+<script>
+      $(".slide2").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplayHoverPause: true,
+      });
+    </script>
+
+  </body>
+</html>
+
